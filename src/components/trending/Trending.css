@@ -1,0 +1,37 @@
+.trending {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    background: var(--cardColor);
+}
+
+.trending>span {
+    font-weight: bold;
+}
+
+.topic {
+    display: flex;
+    flex-direction: column;
+}
+
+.topic>span:nth-of-type(1) {
+    font-style: italic;
+    font-size: 15px;
+}
+
+.topic>span:nth-of-type(2) {
+    color: var(--gray);
+    font-size: 12px;
+}
+
+.topics {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}

@@ -4,6 +4,7 @@ import home from '../../img/home.png'
 import notification from '../../img/noti.png'
 import message from '../../img/comment.png'
 import { UilSetting } from '@iconscout/react-unicons'
+import Trending from '../trending/Trending'
 
 const RightSide = () => {
     return (
@@ -14,6 +15,7 @@ const RightSide = () => {
                 <img src={notification} alt="" />
                 <UilSetting />
             </div>
+            <Trending />
         </div>
     )
 }
