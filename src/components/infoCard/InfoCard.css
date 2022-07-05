@@ -1,0 +1,31 @@
+.infoCard {
+    background: var(--cardColor);
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    padding: 1rem;
+    width: 90%;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.infoHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.infoHeader>svg {
+    height: 1.2rem;
+    width: 1.2rem;
+    cursor: pointer;
+}
+
+.i-button {
+    height: 1.7rem;
+    width: 40%;
+    align-self: center;
+    margin-top: 0.5rem;
+}

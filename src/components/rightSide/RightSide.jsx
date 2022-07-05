@@ -16,6 +16,9 @@ const RightSide = () => {
                 <UilSetting />
             </div>
             <Trending />
+            <div className="button r-button">
+                Share
+            </div>
         </div>
     )
 }
