@@ -1,0 +1,67 @@
+.auth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    position: relative;
+    height: 100vh;
+}
+
+.auth>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-left {
+    gap: 4rem;
+}
+
+.a-left>img {
+    width: 4rem;
+    height: 4rem;
+}
+
+.webname>h1 {
+    font-size: 3rem;
+    color: var(--orange);
+}
+
+.webname>h6 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.a-right {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-form {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.a-email {
+    gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.a-email>input {
+    font-size: 16px;
+    align-self: flex-end;
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid var(--orange);
+    outline: none;
+    border-radius: 0.5rem;
+}
