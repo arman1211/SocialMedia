@@ -1,20 +1,23 @@
-.auth {
+.Auth {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    height: 100vh;
     gap: 4rem;
     position: relative;
-    height: 100vh;
 }
 
-.auth>div {
+.Auth>div {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
+
+
+/* left side */
 .a-left {
-    gap: 4rem;
+    gap: 2rem;
 }
 
 .a-left>img {
@@ -22,46 +25,70 @@
     height: 4rem;
 }
 
-.webname>h1 {
+.Webname>h1 {
     font-size: 3rem;
-    color: var(--orange);
+    background-color: red;
+
+    /* Create the gradient. */
+    background-image: var(--buttonBg);
+
+    /* Set the background size and repeat properties. */
+    background-size: 100%;
+    background-repeat: repeat;
+
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
 }
 
-.webname>h6 {
-    font-weight: bold;
-    font-size: 1rem;
+.Webname>h6 {
+    font-size: 0.85rem;
 }
 
-.a-right {
+
+
+.infoForm {
     display: flex;
-    gap: 2rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.a-form {
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%;
-    align-items: flex-start;
-    flex-direction: column;
     gap: 2rem;
 }
 
-.a-email {
-    gap: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.infoInput {
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
 }
 
-.a-email>input {
-    font-size: 16px;
+.infoForm>div {
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 90%;
+}
+
+.infoButton {
+    width: 6rem;
+    height: 2rem;
     align-self: flex-end;
+}
+
+
+.authForm {
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.authForm>div {
     width: 100%;
-    padding: 0.7rem;
-    border: 1px solid var(--orange);
-    outline: none;
-    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
 }
